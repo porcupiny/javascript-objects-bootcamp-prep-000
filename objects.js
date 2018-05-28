@@ -4,3 +4,5 @@ var playlist = new Object({
 })
 
 updatePlaylist(playlist, artistName, songTitle)
+
+removeFromPlaylist(playlist, artistName)
