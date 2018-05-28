@@ -3,6 +3,11 @@ var playlist = new Object({
   'Echo & the Bunnymen': 'A Promise'
 })
 
-updatePlaylist(playlist, artistName, songTitle)
+function updatePlaylist(playlist, artistName, songTitle) {
+  return playlist.assign({}, artistName, songTitle)
+}
 
-removeFromPlaylist(playlist, artistName)
+function removeFromPlaylist(playlist, artistName) {
+  delete artistName.playlist;
+  playlist;
+}
