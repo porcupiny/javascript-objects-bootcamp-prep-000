@@ -1,4 +1,5 @@
 var playlist = new Object({
+  artistName: songTitle,
   'New Order': 'Ceremony',
   'Echo & the Bunnymen': 'A Promise'
 })
